@@ -1,0 +1,98 @@
+.top-label{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;    
+    height: 50px;
+    font-size: 25px;
+}
+.top-label>div{
+    background-color: cornflowerblue;
+    color: white;
+    height: 30px;
+    padding: 10px;
+}
+.nav-bar{
+    display: flex;
+    margin-top: 3px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 7px ;
+}
+.nav-bar>.logo,.nav-bar>.options{
+    flex-grow: 1;
+}
+.options>div{
+    flex-grow: 1;
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    font-size:27px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 40px;
+    width: 240px;
+}
+.sign{
+    border: 1px solid black;
+    border-radius: 1px;
+}
+.button{
+    background-color: cadetblue;
+    border: 1px solid blue
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.hero>.content{
+    flex-grow: 4;
+}
+.photu{
+    
+    margin-left: 6px;
+    margin-right: 6px
+}
+.content>div{
+    margin-left: 11px;   
+}
+.content{
+    
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.h1{
+    
+    flex-grow: 1;
+font-size: 2.2rem;
+font-weight: 700;
+}
+.content>h1{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+}
+.desp{
+    
+flex-grow: 3;
+font-size: 1.5rem;
+}
+.try-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+flex-grow: 1;
+width: 25%;
+font-weight: 900;
+font-size: larger;
+background-color: rgb(50, 101, 152);
+border-radius: 5px;
+color: white;
+}
