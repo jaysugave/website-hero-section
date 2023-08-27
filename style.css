@@ -8,6 +8,9 @@
     font-size: 30px;
     text-align: center;
 } 
+.hero>.content,.hero .photu{
+    border: 1px solid black;
+}
 .hero img{
     max-width: 100%;
 }
@@ -72,8 +75,8 @@
         font-size: 22px;
     }
     .logo>img{
-        height:40px;
-        width: 95%;
+        height:auto;
+        width: 100%;
     }
     .hero img{
         height: auto;
@@ -98,7 +101,7 @@
         font-size: 19px;
     }
     .logo>img{
-        height:30px;
+        height:auto;
         width: 100%;
     }
     .hero img{
