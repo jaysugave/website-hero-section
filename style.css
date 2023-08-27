@@ -36,9 +36,6 @@
     margin-left: 3%;
     margin-right: 3%;
 }
-.hero>.content,.hero .photu{
-    border: 1px solid black;
-}
 .hero h1{
     font-size:85px ;
 }
