@@ -111,6 +111,7 @@
     .nav-bar{
         width:100%;
         height: auto;
+        flex-direction:column;
     }
     .hero .try-button{
         height: fit-content;
